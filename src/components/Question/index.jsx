@@ -7,7 +7,7 @@ export const Question = ({text}) => {
   const [answered, setAnswered] = useState(false);
 
   const handleSelect = () => {
-    setAnswered(!answered);
+    setAnswered(true);
   }
   
     return (
